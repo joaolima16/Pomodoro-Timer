@@ -2,11 +2,7 @@ var seg = 60;
 var timer = 24;
 var valor = 0;
 const res_final = document.querySelector("#res_fin")
-var minutes = document.querySelector("#mins")
-var result_min = document.querySelector("#res_min");
 var limite = 0;
-const teste = () => x = 10;
-var result_seg = document.getElementById("res")
 function segundos() {
 tempo = setInterval(() => {
         seg -=1
