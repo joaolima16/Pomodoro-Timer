@@ -30,17 +30,17 @@ input[type=button]{
     font-size: 15px;
 }
 #inicia{
-    background-color: #0d8b48;
+    background-image: linear-gradient(to right, #52c234 0%, #061700  51%, #52c234  100%);
     color: white;
     font-family: sans-serif;
 }
 #para{
-    background-color: #a30d1a;
+    background-image: linear-gradient(to right, #e52d27 0%, #b31217  51%, #e52d27  100%);
     color: white;
     font-family: sans-serif;
 }
 #zerar{
-    background-color: #a16608;
+    background-image: linear-gradient(to right, #FFB75E 0%, #ED8F03  51%, #FFB75E  100%);
     color: white;
 
 }
@@ -60,6 +60,6 @@ input[type=button]:hover{
     transition: 0.5s;
     width: 190px;
     height: 50px;
-    -webkit-filter: drop-shadow(15px 10px 5px rgb(0, 0, 0));
-    filter: drop-shadow(15px 10px 5px rgb(0, 0, 0));
+    -webkit-filter: drop-shadow(15px 7px 5px rgb(0, 0, 0));
+    filter: drop-shadow(15px 7px 5px rgb(0, 0, 0));
 }
